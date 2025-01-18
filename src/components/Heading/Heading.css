@@ -1,0 +1,37 @@
+.heading-head {
+	width: fit-content;
+	font-size: 2rem;
+	color: rgb(0, 229, 255);
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 6rem;
+}
+.heading-design-line {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.heading-design1 {
+	height: 2px;
+	width: 90px;
+	background-color: rgb(0, 229, 255);
+}
+.heading-design2 {
+	height: 8px;
+	width: 64px;
+	background-color: rgb(0, 229, 255);
+	clip-path: polygon(0 -1px, 100% -1px, calc(100% - 10px) 100%, 10px 100%);
+}
+
+.heading-head span {
+	margin-top: -3px;
+}
+@media screen and (max-width: 1025px) {
+	.heading-head {
+		font-size: 1.5rem;
+		justify-content: flex-start;
+	}
+	.heading-head span {
+		margin-left: 5px;
+	}
+}

@@ -1,0 +1,101 @@
+.carrer-info-container {
+	clear: both;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #fff;
+	margin: 12rem;
+	font-size: 2.5rem;
+	border-bottom: 1px solid rgb(0, 229, 255);
+}
+.education-container,
+.experience-container {
+	width: 50%;
+	padding: 2rem 0;
+}
+.carrer-info-container h1 {
+	margin-bottom: 4rem;
+	font-size: 60px;
+	-webkit-text-stroke: 1px #ffffff7b;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Playfair Regular', sans-serif;
+	color: transparent;
+	font-weight: 900;
+}
+.carrer-info-container ul {
+	width: 100%;
+	margin: 0;
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+	padding-top: 10px;
+}
+.carrer-info-container ul:before {
+	background-color: rgb(0, 229, 255);
+}
+.carrer-info-container ul:before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 90%;
+	top: -2px;
+	left: 0;
+	background-color: rgb(0, 229, 255);
+}
+.carrer-info-container ul li {
+	margin: 0;
+	width: 100%;
+	position: relative;
+	padding-left: 20px;
+	padding-bottom: 45px;
+}
+.carrer-info-container ul li:before {
+	background-color: rgb(17, 17, 17);
+	border-color: rgb(0, 229, 255);
+}
+.carrer-info-container ul li:before {
+	content: '';
+	position: absolute;
+	height: 18px;
+	width: 18px;
+	background: rgb(0, 229, 255);
+	border-radius: 100%;
+	border: 1px solid rgb(0, 229, 255);
+	left: -9px;
+	top: 8px;
+}
+.carrer-info-container ul li .list_inner {
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	position: relative;
+}
+.carrer-info-container ul li .time {
+	width: 50%;
+	padding-right: 20px;
+}
+.carrer-info-container ul li .place {
+	width: 50%;
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+	.carrer-info-container {
+		margin: 5rem 2rem;
+		flex-direction: column;
+		justify-content: center;
+		font-size: 2rem;
+	}
+	.education-container,
+	.experience-container {
+		width: 100%;
+	}
+
+	.carrer-info-container ul li .place {
+		padding: 0;
+	}
+	.carrer-info-container ul li .place span {
+		font-size: 1.5rem;
+	}
+}

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Caveat&family=Mulish&family=Trade+Winds&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* :root {
+	--background-color: rgb(17, 17, 17);
+}
+
+[data-theme='light'] {
+	--background-color: rgb(255, 255, 255) !important;
+} */
+
+html {
+	font-size: 0.5208333333vw;
+}
+
+body {
+	background-color: rgb(17, 17, 17);
+	overflow-x: hidden;
+}
+.router-container {
+	margin-top: 6.2rem;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-thumb {
+	background: rgb(0, 219, 255);
+	border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::selection {
+	background: rgb(0, 219, 255);
+	color: rgb(17, 17, 17);
+	-webkit-text-stroke: 1px rgb(17, 17, 17);
+}
+
+@media only screen and (max-width: 1024px) {
+	html {
+		font-size: 1.6666666667vw;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	html {
+		font-size: 2.6666666667vw;
+	}
+}

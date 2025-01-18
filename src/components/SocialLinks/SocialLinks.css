@@ -1,0 +1,27 @@
+.social-links {
+	display: flex;
+	font-family: 'Mulish';
+	padding: 0;
+	margin: 0;
+}
+.social-links button {
+	background: transparent;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.social-links .menu-item:hover.menu-item div:nth-child(1) span {
+	transform: translateY(-100%) rotateX(90deg);
+}
+.social-links .menu-item:hover.menu-item div:nth-child(2) span {
+	transform: translateY(-10%) rotateX(0deg);
+}
+
+@media screen and (max-width: 1025px) {
+	.social-links {
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
