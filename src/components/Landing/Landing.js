@@ -24,11 +24,9 @@ const Landing = () => {
 				<div className='landing-work'>
 					<TypeAnimation
 						sequence={[
-							'UI Developer',
-							1000,
 							'Problem Solver',
 							1000,
-							'UX Developer',
+							'UX Designer',
 							1000
 						]}
 						speed={20}
