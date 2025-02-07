@@ -40,7 +40,7 @@ const About = () => {
 						<h1>
 							A Passionate & enthusiastic
 						</h1>
-						<h1>UI/UX developer.Currently</h1>
+						<h1>UI/UX Designer.Currently</h1>
 						<h1>
 							based <span>in</span>
 							<span className='intro-place'> Gurugram,India.</span>
